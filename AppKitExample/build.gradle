@@ -23,9 +23,10 @@ android {
 }
 
 dependencies {
-	api 'com.github.grishka.litex:annotation:1.0'
+	implementation "androidx.annotation:annotation:1.1.0"
 	implementation 'com.squareup.okhttp3:okhttp:3.14.2'
-	implementation 'com.github.grishka.litex:recyclerview:1.0'
-	implementation 'com.github.grishka.litex:swiperefreshlayout:1.0'
+	implementation "androidx.recyclerview:recyclerview:1.1.0"
+	implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+	implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 	implementation project(':appkit')
 }
